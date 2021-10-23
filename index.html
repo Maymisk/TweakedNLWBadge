@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <title>Kk bobo - DoWhile 2021</title>
+    <link rel="stylesheet" href="rocketdesktop.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- IGNITE -->
+    <div id="igniteText">Ignite!</div>
+
+    <!-- BACKGROUND -->
+    <div id="backgroundFx"></div>
+    <div class="bg">
+      <video autoplay muted loop src="images/nlw.mp4" id="earthFootage"></video>
+    </div>
+
+    <main>
+      <!-- TOP DECORATIONS -->
+      <div class="blackBar"></div>
+      <div class="stripe"></div>
+      <div class="container">
+        <!-- PFP -->
+
+        <div class="avatar">
+          <span><img src="images/selo.svg" alt="selo rocketseat" /></span>
+          <div id="avatarText">Have you seen this man? 👹</div>
+          <img
+            id="userProfilePicture"
+            src="images/mulher horrorosa.jpg"
+            alt="mulher horrorosa"
+          />
+        </div>
+
+        <!-- HEADING + GITHUB -->
+
+        <h1 id="MyName">Khalil Bohner</h1>
+        <a id="userLink" href="https://github.com" target="_blank">
+          <img src="images/github 2.svg" alt="ícone github" />
+          <span id="userLogin">maymis_k</span></a
+        >
+
+        <!-- TEXT + SOCIAL MEDIA -->
+
+        <p id="userBio">
+          An instructor focused on helping pople start programming for web
+        </p>
+
+        <ul id="shittyList">
+          <li class="youtube">
+            <a href="https://youtube.com/maykbrito" target="_blank">
+              <img
+                class="iconImg"
+                src="images/youtube.svg"
+                alt="ícone youtube"
+              />
+            </a>
+          </li>
+
+          <li class="facebook">
+            <a href="https://facebook.com/maykbrito" target="_blank">
+              <img
+                class="iconImg"
+                src="images/facebook.svg"
+                alt="ícone facebook"
+              />
+            </a>
+          </li>
+
+          <li class="instagram">
+            <a href="https://instagram.com/maykbrito" target="_blank">
+              <img
+                class="iconImg"
+                src="images/instagram.svg"
+                alt="ícone instagram"
+              />
+            </a>
+          </li>
+
+          <li class="twitter">
+            <a href="https://twitter.com/maykbrito" target="_blank">
+              <img
+                class="iconImg"
+                src="images/twitter.svg"
+                alt="ícone twitter"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <script src="main.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector('main'), {
+        max: 7,
+        speed: 300
+      })
+    </script>
+  </body>
+</html>
