@@ -19,7 +19,7 @@ This badge is a tweaked version of 👆 that badge - it has a fancy background a
 Install the project to play around with the FX 😝
 
 ```bash
-  git clone https://github.com/Maymisk/NLWbadge.git
+git clone https://github.com/Maymisk/NLWbadge.git
 ```
     
 ## Screenshots
